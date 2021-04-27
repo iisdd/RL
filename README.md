@@ -3,4 +3,4 @@
 
 模块细分: buffer, utils, model, train, main, demo
 
-目前收录: DQN, DDQN, DDPG, TD3, PPO
+目前收录: DQN, DDQN, DDPG, TD3
