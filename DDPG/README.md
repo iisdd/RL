@@ -3,4 +3,4 @@
 
 actor朝着让Q(s,a)更大的方向更新,critic朝着估计Q(s,a)更准的方向更新
 
-一共四张网,两张actor两张critic, a_targ用来选s'的a', c_targ用来算q_next:Q(s',a') -> q_target
+一共四张网,两张actor两张critic, a_targ用来选s'的a', c_targ用来算q_next:Q(s',a') -> q_target,网络的更新用的软替换(指数平滑)
