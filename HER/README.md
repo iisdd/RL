@@ -1,0 +1,2 @@
+# Hindsight Experience Replay
+解决了稀疏奖励的问题, 通过把一个trajectory最后一个状态设置成目标来增强收敛性, 与DDPG结合可以训练出难度比较高的robotic环境, 效果甚至好于手动设置reward
